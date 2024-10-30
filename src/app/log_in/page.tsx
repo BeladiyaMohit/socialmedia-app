@@ -9,7 +9,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="grid h-screen w-full gap-5 md:grid-cols-2 space-x-2">
+    <div className="grid h-screen w-full gap-5 md:grid-cols-2">
       <div className="relative hidden overflow-hidden bg-[#000000]  md:block md:h-full">
         <div className="absolute left-1/2 top-1/4 w-full max-w-md -translate-x-1/2 space-y-3 px-3 text-center text-white">
           <h2 className="text-lg font-bold sm:text-2xl lg:text-[30px]/9">
@@ -78,7 +78,7 @@ export default function Home() {
               <div className="text-center text-xs/4 font-semibold text-black">
                 Don’t have an account?
                 <Link
-                  href="/register"
+                  href="/sign_up"
                   className="pl-1.5 text-sm/tight underline underline-offset-4 hover:text-[#3C3C3D]"
                 >
                   Register
