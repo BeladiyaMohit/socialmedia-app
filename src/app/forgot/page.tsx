@@ -5,6 +5,7 @@ import { AtSign } from 'lucide-react'
 import Image from 'next/image'
 
 export default function Forgot() {
+    
     return (
         <div className="grid h-screen w-full gap-5 md:grid-cols-2">
             <div className="relative hidden overflow-hidden bg-[#000000]  md:block md:h-full">
